@@ -1,0 +1,50 @@
+.singleUserWrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.159);
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+.itemWrapper {
+  padding: 15px 0px;
+}
+.item {
+  margin-left: 55px;
+}
+.item:first-of-type {
+  display: flex;
+  flex-direction: row;
+}
+.item .name {
+  color: hsl(0, 0%, 0%);
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  font-size: 1.2rem;
+}
+.item .dateWrapper {
+  padding-top: 2px;
+  width: 100%;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+  color: hsla(0, 0%, 0%, 0.768);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 1.1px;
+}
+.item:last-of-type {
+  width: 70%;
+  color: hsla(0, 0%, 0%, 0.529);
+  height: 2.2em;
+  line-height: 1.1em;
+  margin-right: 45px;
+  overflow: hidden;
+}
+.active {
+  background: rgba(42, 149, 220, 0.57);
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,58 @@
+.usersWrapper {
+  grid-area: d;
+  min-width: 350px;
+  display: grid;
+  grid-template-rows: 1fr 15fr;
+  width: 100%;
+  border-right: 2px solid rgba(0, 0, 0, 0.159);
+}
+.item:first-of-type {
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.097);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.159);
+}
+.inputBox {
+  display: flex;
+  padding: 3px 7px;
+  border: 2px solid rgba(0, 0, 0, 0.159);
+  background-color: white;
+  border-radius: 15px;
+}
+.item input {
+  width: 100%;
+  border: transparent;
+  padding: 3px 10px;
+  outline: none;
+  color: hsla(0, 1%, 14%, 0.835);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+}
+.profileImage {
+  position: relative;
+  bottom: 14px;
+  right: 10px;
+  width: 64px;
+}
+.item h3 {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: rgba(47, 196, 242, 0.953);
+  font-weight: 500;
+}
+.item:last-of-type {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    rgba(33, 33, 33, 0.487),
+    rgba(62, 159, 194, 0.152)
+  );
+  border-radius: 6px;
+}
